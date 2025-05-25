@@ -16,6 +16,28 @@ numerical-programming/
 │   ├── falling_ball.mp4            # Sample test video
 │   └── interception.gif            # Output animation
 |   └── Intercept a moving ball.pptx  # Presentation
+|   └── test cases
+|       └── 1_high_velocity
+|           └── falling_ball_50_50_50_150.mp4
+|           └── interception_falling_ball_50_50_50_150.gif
+|           └── lot.txt
+|       └── 2_low_velocity
+|           └── falling_ball_50_50_50_300.mp4
+|           └── interception_falling_ball_50_50_50_300.gif
+|           └── log.txt
+|       └── 3_long_distance
+|           └── ...
+|           └── ...
+|           └── ...
+|       └── 4_slow_target
+|           └── ...
+|           └── ...
+|           └── ...
+|   └── output of test cases
+|       └── exact_velocity.gif
+|       └── high_velocity_interception_falling_ball_50_50_50_150.gif
+|       └── interception_delay0.gif
+|       └── ...
 ├── sturm-liouville-solver/    # Eigenvalue problem solver
 │   └── sturm_liouville_solver.py   # ODE eigenvalue solver
 |   └── Sturm-Liouville.pptx     # Presentation
