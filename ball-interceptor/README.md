@@ -45,7 +45,7 @@ Core interception logic and animation system:
 - `find_interception()`: Grid search optimization algorithm
 - `animate_interception()`: Real-time visualization system
 
-### Computer Vision Detection (`CP2.py`)
+### Computer Vision Detection (`detect_ball.py`)
 
 Ball tracking and motion analysis system:
 - Extracts ball position and velocity from video using OpenCV
