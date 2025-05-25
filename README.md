@@ -7,7 +7,7 @@ This repository showcases various numerical programming techniques and their app
 # 📂 Projects
 #### 📦 Repository Structure
  Structure
-'''bash
+```bash
 numerical-programming/
 ├── ball-interceptor/          # Projectile simulation
 │   ├── ball_interceptor.py         # Main interception engine
@@ -20,7 +20,7 @@ numerical-programming/
 │   └── sturm_liouville_solver.py   # ODE eigenvalue solver
 |   └── Sturm-Liouville.pptx     # Presentation
 ├── README.md                  # This overview
-└── ...                        # Future projects'''
+└── ...                        # Future projects```
 
 ## 1. Ball Interceptor System
 A comprehensive projectile interception simulation that combines computer vision, kinematics, and optimization to solve real-world targeting problems.
@@ -71,12 +71,13 @@ Test cases include exact velocity, high velocity, interception delay, long dista
 python ball_interceptor.py
 
 ###### Example Output
-'''yaml Detected Initial Position: (6.40, 1.00) meters
+```yaml
+Detected Initial Position: (6.40, 1.00) meters
 Calculated Initial Velocity: (2.00, 1.00) m/s
 Launch velocity: 17.34 m/s
 Launch angle: 45.2 degrees
 Total interception time: 2.15 s
-Flight time: 1.15 s'''
+Flight time: 1.15 s```
 
 ###### Applications
 Defense Systems: Anti-missile and projectile defense calculations
@@ -135,6 +136,7 @@ This type of equation appears in quantum mechanics, vibration analysis, and heat
 ###### Usage
 bashpython sturm_liouville_solver.py
 ###### Example Output
+```bash
 Initialized solver with domain [0.000100, 1.570696] using 1000 points
 
 Finding 8 eigenvalues and eigenfunctions...
@@ -152,7 +154,7 @@ Eigenvalues:
 λ_1 = 0.374593
 λ_2 = 2.811684
 λ_3 = 7.248775
-...
+```
 
 ###### Output Files
 eigenfunctions.png - Grid visualization of all computed eigenfunctions
