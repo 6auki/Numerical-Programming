@@ -1,5 +1,5 @@
 # Numerical Programming
-A collection of computational mathematics projects implementing numerical methods and simulations for solving applied mathematical problems in Python.
+   A collection of computational mathematics projects implementing numerical methods and simulations for solving applied mathematical problems in Python.
 
 ### 🎯 Repository Overview
 This repository showcases various numerical programming techniques and their applications across different domains of computational mathematics. Each project demonstrates practical implementations of numerical algorithms with real-world applications.
