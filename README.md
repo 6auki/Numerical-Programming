@@ -26,14 +26,14 @@ numerical-programming/
 ## 1. Ball Interceptor System
 A comprehensive projectile interception simulation that combines computer vision, kinematics, and optimization to solve real-world targeting problems.
 
-### 🎯 Problem Statement
+### Problem Statement
 Design a system that can intercept a moving projectile by:
 - Detecting and tracking a falling ball from video footage
 - Predicting its future trajectory using kinematic equations
 - Computing optimal launch parameters (velocity and angle) to intercept the target
 - Accounting for realistic constraints like launch delays
 
-#### 🔧 System Components
+#### System Components
 ##### Interception Engine (ball_interceptor.py) - Core interception logic and animation
 - Predicts target position at any future time using kinematic equations
 - Performs grid search optimization over launch velocity and angle ranges
@@ -56,7 +56,7 @@ Design a system that can intercept a moving projectile by:
 - Visual confirmation of successful interception
 - Trajectory plotting and analysis tools
 
-###### 🛠️ Key Features
+###### Key Features
 - Motion Prediction: Calculates future position of targets using physics-based models
 - Optimization: Grid search algorithm finds optimal launch parameters
 - Delay Compensation: Handles realistic launch delays in timing calculations
@@ -78,7 +78,8 @@ Calculated Initial Velocity: (2.00, 1.00) m/s
 Launch velocity: 17.34 m/s
 Launch angle: 45.2 degrees
 Total interception time: 2.15 s
-Flight time: 1.15 s```
+Flight time: 1.15 s
+```
 
 ###### Applications
 Defense Systems: Anti-missile and projectile defense calculations
@@ -175,7 +176,7 @@ Mathematical Physics: Separation of variables in PDE solutions
 - Provides educational insight into spectral theory computations
 
 
-### 🛠️ Technologies & Methods
+### Technologies & Methods
 - Languages: Python
 - Core Libraries: NumPy, SciPy, Matplotlib
 - Numerical Methods:
@@ -187,11 +188,11 @@ Mathematical Physics: Separation of variables in PDE solutions
 
 
 
-#### 🚧 Development
+#### Development
 This is an active repository with ongoing additions of new numerical programming projects and methods. Each project focuses on different aspects of computational mathematics while maintaining code quality and educational value.
 
-## 🧠 Credits
+## Credits
 Created as part of advanced simulations and mathematical modeling coursework. Demonstrates numerical integration, differential equation solving, and animation in Python.
 
-📜 License
+# License
 MIT License
