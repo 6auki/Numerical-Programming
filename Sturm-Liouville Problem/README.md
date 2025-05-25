@@ -24,8 +24,8 @@ pip install numpy scipy matplotlib
 
 ```
 sturm-liouville-solver/
-├── sturm_liouville_solver.py    # Main solver implementation
-├── eigenfunctions.png           # Output visualization
+├── sturm_liouville_solver.py   # Main solver implementation
+├──                             # Your generated output visualization
 ├── Sturm-Liouville.pptx        # Project presentation
 └── README.md                   # This file
 ```
