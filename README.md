@@ -11,7 +11,7 @@ This repository showcases various numerical programming techniques and their app
 numerical-programming/
 ├── ball-interceptor/          # Projectile simulation
 │   ├── ball_interceptor.py         # Main interception engine
-│   ├── detec_ball.py               # Computer vision detection
+│   ├── detect_ball.py               # Computer vision detection
 │   ├── create_falling_ball_video.py # Video generation utility
 │   ├── falling_ball.mp4            # Sample test video
 │   └── interception.gif            # Output animation
@@ -21,6 +21,11 @@ numerical-programming/
 |   └── Sturm-Liouville.pptx     # Presentation
 ├── README.md                  # This overview
 └── ...                        # Future projects
+```
+
+## Requirements
+```bash
+pip install numpy matplotlib opencv-python scipy
 ```
 
 ## 1. Ball Interceptor System
@@ -100,7 +105,9 @@ Components:
 
 ### Problem Statement
 Solve the singular Sturm-Liouville equation:
+```math
 -1/2 * cos⁴(x) * u''(x) - 1/2 * cos³(x)cos(2x)/sin(x) * u'(x) + [m²cos²(x)/(2sin²(x)) - cos(x)/sin(x)] * u(x) = λu(x)
+```
 
 Subject to boundary conditions: u(0) = 0 and u(π/2) = 0
 This type of equation appears in quantum mechanics, vibration analysis, and heat transfer problems with variable coefficients.
@@ -136,7 +143,9 @@ This type of equation appears in quantum mechanics, vibration analysis, and heat
 - Numerical Integration: Trapezoidal rule for normalization
 
 ###### Usage
-bashpython sturm_liouville_solver.py
+```bash
+python sturm_liouville_solver.py
+```
 ###### Example Output
 ```bash
 Initialized solver with domain [0.000100, 1.570696] using 1000 points
