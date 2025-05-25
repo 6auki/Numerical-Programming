@@ -1,0 +1,8 @@
+Detected Initial Position: (6.40, 1.00) meters
+Calculated Initial Velocity: (2.01, 0.74) meters/second
+(6.4, 1.0)
+(np.float64(2.007272727272739), np.float64(0.7372727272727113))
+Launch velocity: 13.00 m/s
+Launch angle: -55.86 degrees
+Total interception time: 2.61 s
+Flight time: 1.61 s
