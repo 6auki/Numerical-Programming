@@ -20,7 +20,8 @@ numerical-programming/
 │   └── sturm_liouville_solver.py   # ODE eigenvalue solver
 |   └── Sturm-Liouville.pptx     # Presentation
 ├── README.md                  # This overview
-└── ...                        # Future projects```
+└── ...                        # Future projects
+```
 
 ## 1. Ball Interceptor System
 A comprehensive projectile interception simulation that combines computer vision, kinematics, and optimization to solve real-world targeting problems.
