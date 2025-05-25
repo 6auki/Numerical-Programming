@@ -18,7 +18,7 @@ pip install numpy matplotlib opencv-python scipy
 ## Project Structure
 ```
 ball-interceptor/
-├── Output of test cases
+├── output of test cases
 ├── test cases
 ├── ball_interceptor.py              # Main interception engine
 ├── CP2.py                          # Computer vision detection
