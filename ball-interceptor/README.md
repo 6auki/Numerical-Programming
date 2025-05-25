@@ -20,12 +20,12 @@ pip install numpy matplotlib opencv-python scipy
 ball-interceptor/
 ├── output of test cases
 ├── test cases
-├── ball_interceptor.py              # Main interception engine
-├── CP2.py                          # Computer vision detection
+├── ball_interceptor.py             # Main interception engine
+├── detect_ball.py                  # Computer vision detection
 ├── create_falling_ball_video.py    # Video generation utility
 ├── falling_ball.mp4                # Sample test video
 ├── interception.gif                # Output animation
-├── Intercept a moving ball.pptx     # Project presentation
+├── Intercept a moving ball.pptx    # Project presentation
 └── README.md                       # This file
 ```
 
